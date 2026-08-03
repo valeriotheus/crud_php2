@@ -1,0 +1,23 @@
+CREATE DATABASE crudphp;
+
+USE crudphp;
+
+
+CREATE TABLE cliente(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+email VARCHAR(100),
+telefone VARCHAR(20)
+
+);
+
+
+CREATE TABLE fornecedor(
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+email VARCHAR(100),
+telefone VARCHAR(20)
+
+);
